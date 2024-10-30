@@ -72,34 +72,3 @@ function newchoice(number, choice) {
     document.getElementById("answer" + number); //.style.backgroundColor = "yellow"; // answer == correct
   }
 }
-
-// letter guess
-// let randomNumber = Math.floor(Math.random() * 26) + 1;
-// let randomLetter = String.fromCharCode(randomNumber + 64); // Convert to letter
-
-// let guessesLeft = 5;
-// while (guessesLeft > 0) {
-//   let guess = prompt("Guess a letter (A-Z):");
-
-//   if (guess.length !== 1 || !guess.match(/[A-Z]/i)) {
-//     alert("Please enter a single letter from A to Z.");
-//     continue;
-//   }
-
-//   let guessNumber = guess.toUpperCase().charCodeAt(0) - 64;
-
-//   if (guessNumber === randomNumber) {
-//     alert("Congratulations! You guessed the letter correctly!");
-//     break;
-//   } else if (guessNumber < randomNumber) {
-//     alert("Too low! Try a higher letter.");
-//   } else {
-//     alert("Too high! Try a lower letter.");
-//   }
-
-//   guessesLeft--;
-// }
-
-// if (guessesLeft === 0) {
-//   alert("You ran out of guesses. The letter was " + randomLetter + ".");
-// }
